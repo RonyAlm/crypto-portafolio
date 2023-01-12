@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crypto Portafolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
+      <img
+        src="./images/logo.svg"
+        alt="Logo for the company Netbook"
+        width="145"
+        height="35"
+      />
 
-        <div class="header__nav">
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </nav>
 
-            <img src="./images/logo.svg" alt="Logo for the company Netbook">
-
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Events</a></li>
-                </ul>
-            </nav>
-
-        </div>
-
-        <div>
-            <input type="search" name="" id="">
-            <a href="/login">Log in</a>
-        </div>
-
+      <div class="header__actions">
+        <form class="header__search" action="">
+          <img
+            src="./images/ico-search.svg"
+            alt="Maginify glass icon for search"
+            width="16"
+            height="16"
+          />
+          <input type="search" aria-label="search" placeholder="Search Hare..." />
+        </form>
+        <a href="/login" class="btn">Log in</a>
+      </div>
     </header>
     <main>
-        <section class="hero"></section>
-        <div class="clients"></div>
-        <section class="whats-netboks">
-        </section>
-        <section class="community"></section>
-        <section class="members"></section>
-        <section class="app"></section>
-        <section class="news"></section>
+      <section class="hero"></section>
+      <div class="clients"></div>
+      <section class="whats-netboks"></section>
+      <section class="community"></section>
+      <section class="members"></section>
+      <section class="app"></section>
+      <section class="news"></section>
     </main>
     <footer></footer>
-</body>
-
+  </body>
 </html>
